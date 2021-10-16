@@ -1,8 +1,9 @@
-import {React, useState} from "react"
-import Sheet from "sheet-happens"
+import {React, useState} from "react";
+import Sheet from "sheet-happens";
+
 export default function SheetBox() {
 
-    const [data, setData] = useState({});
+    const [data, setData] = useState([]);
     const [cellWidth, setCellWidth] = useState([]);
     const [cellHeight, setCellHeight] = useState([]);
 
